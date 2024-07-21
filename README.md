@@ -1,5 +1,14 @@
 # 題目
 
+## 服務
+
+### 啟動服務  
+`docker compose up -d`
+
+### CLI
+`docker exec -it asiayo-pretest-web-1 bash`
+
+
 ## 題目1 
 請寫出⼀條查詢語句 (SQL)，列出在 2023 年 5 ⽉下訂的訂單，使⽤台幣付款且5⽉總⾦額最
 多的前 10 筆的旅宿 ID (bnb_id), 旅宿名稱 (bnb_name), 5 ⽉總⾦額 (may_amount)

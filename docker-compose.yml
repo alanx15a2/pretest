@@ -1,0 +1,12 @@
+services:
+    web:
+        build:
+            target: web
+            context: .
+        env_file:
+            - .env
+        ports:
+            - "8000:80"
+        volumes:
+            - .:/var/www/html
+            - '/var/www/html/vendor'
