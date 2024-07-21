@@ -2,7 +2,6 @@
 
 namespace App\Application\Port\In;
 
-use App\application\Domain\Entities\OrderEntity;
 use App\Application\Domain\ValueObjects\Currency;
 use Illuminate\Validation\ValidationException;
 

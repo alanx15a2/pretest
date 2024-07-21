@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\application\Domain\Services\OrderService;
+use App\Application\Domain\Services\OrderService;
 use App\Application\Port\In\OrderUseCase;
 use Illuminate\Support\ServiceProvider;
 
