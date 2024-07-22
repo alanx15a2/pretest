@@ -3,13 +3,19 @@
 ## 服務
 
 ### 啟動服務  
-`docker compose up -d`
+```
+docker compose up -d
+```
 
 ### CLI
-`docker exec -it pretest-web-1 bash`
+```
+docker exec -it pretest-web-1 bash
+```
 
 ### TEST
-`php artisan test`
+```
+php artisan test
+```
 
 ## 題目1 
 請寫出⼀條查詢語句 (SQL)，列出在 2023 年 5 ⽉下訂的訂單，使⽤台幣付款且5⽉總⾦額最
